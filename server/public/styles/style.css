@@ -1,0 +1,394 @@
+body {
+  width: 100vh;
+  height: 100vh;
+  margin: auto;
+  background-color: rgb(38, 38, 46);
+  color: goldenrod;
+}
+
+div {
+  padding: 0;
+  line-height: 0px;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  line-height: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  height: 25px;
+  text-align: left;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+#output {
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+.a {
+  background-color: rgb(0, 0, 0);
+}
+
+.aa {
+  background-color: rgb(10, 10, 10);
+}
+
+.aaa {
+  background-color: rgb(20, 20, 20);
+}
+
+.aaaa {
+  background-color: rgb(30, 30, 30);
+}
+
+.aaaaa {
+  background-color: rgb(40, 40, 40);
+}
+
+.aaaaaa {
+  background-color: rgb(50, 50, 50);
+}
+
+.aaaaaaa {
+  background-color: rgb(60, 60, 60);
+}
+
+.aaaaaaaa {
+  background-color: rgb(70, 70, 70);
+}
+
+.aaaaaaaaa {
+  background-color: rgb(80, 80, 80);
+}
+
+.aaaaaaaaaa {
+  background-color: rgb(66, 55, 32);
+}
+
+.b {
+  background-color: rgb(20, 20, 20);
+}
+
+.bb {
+  background-color: rgb(40, 40, 40);
+}
+
+.bbb {
+  background-color: rgb(60, 60, 60);
+}
+
+.bbbb {
+  background-color: rgb(80, 80, 80);
+}
+
+.bbbbb {
+  background-color: rgb(100, 100, 100);
+}
+
+.bbbbbb {
+  background-color: rgb(120, 120, 120);
+}
+
+.bbbbbbb {
+  background-color: rgb(140, 140, 140);
+}
+
+.bbbbbbbb {
+  background-color: rgb(13, 13, 54);
+}
+
+.bbbbbbbbb {
+  background-color: rgb(58, 36, 18);
+}
+
+.bbbbbbbbbb {
+  background-color: rgb(24, 48, 10);
+}
+
+.c {
+  background-color: white;
+}
+
+.cc {
+  background-color: blue;
+}
+
+.ccc {
+  background-color: red;
+}
+
+.cccc {
+  background-color: yellow;
+}
+
+.ccccc {
+  background-color: green;
+}
+
+.cccccc {
+  background-color: purple;
+}
+
+.ccccccc {
+  background-color: orange;
+}
+
+.cccccccc {
+  background-color: black;
+}
+
+.ccccccccc {
+  background-color: bisque;
+}
+
+.cccccccccc {
+  background-color: fuchsia;
+}
+
+.d {
+  background-color: violet;
+}
+
+.dd {
+  background-color: rgb(136, 192, 238);
+}
+
+.ddd {
+  background-color: rgb(123, 53, 204);
+}
+
+.dddd {
+  background-color: rgb(56, 89, 180);
+}
+
+.ddddd {
+  background-color: rgb(162, 88, 185);
+}
+
+.dddddd {
+  background-color: rgb(91, 79, 255);
+}
+
+.ddddddd {
+  background-color: rgb(172, 127, 214);
+}
+
+.dddddddd {
+  background-color: rgb(104, 68, 187);
+}
+
+.ddddddddd {
+  background-color: rgb(148, 146, 255);
+}
+
+.dddddddddd {
+  background-color: rgb(255, 217, 0);
+}
+
+.e {
+  background-color: rgb(60, 60, 60);
+}
+
+.ee {
+  background-color: rgb(90, 90, 90);
+}
+
+.eee {
+  background-color: rgb(120, 120, 120);
+}
+
+.eeee {
+  background-color: rgb(150, 150, 150);
+}
+
+.eeeee {
+  background-color: rgb(180, 180, 180);
+}
+
+.eeeeee {
+  background-color: rgb(210, 210, 210);
+}
+
+.eeeeeee {
+  background-color: rgb(93, 119, 71);
+}
+
+.eeeeeeee {
+  background-color: rgb(85, 29, 29);
+}
+
+.eeeeeeeee {
+  background-color: rgb(7, 0, 105);
+}
+
+.eeeeeeeeee {
+  background-color: rgb(78, 1, 102);
+}
+
+.f {
+  background-color: rgb(255, 255, 255);
+}
+
+.ff {
+  background-color: rgb(255, 136, 0);
+}
+
+.fff {
+  background-color: rgb(255, 0, 170);
+}
+
+.ffff {
+  background-color: rgb(60, 255, 0);
+}
+
+.fffff {
+  background-color: rgb(200, 255, 0);
+}
+
+.ffffff {
+  background-color: rgb(255, 145, 0);
+}
+
+.fffffff {
+  background-color: rgb(0, 89, 255);
+}
+
+.ffffffff {
+  background-color: rgb(251, 255, 0);
+}
+
+.fffffffff {
+  background-color: rgb(0, 255, 242);
+}
+
+.ffffffffff {
+  background-color: rgb(234, 0, 255);
+}
+
+button {
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(215, 216, 245);
+}
+
+.one {
+  animation: flash1 1s linear infinite;
+}
+
+.two {
+  animation: flash2 1s linear infinite;
+}
+
+.three {
+  animation: flash3 1s linear infinite;
+}
+
+.four {
+  animation: flash4 1s linear infinite;
+}
+
+@keyframes flash1 {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash2 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash4 {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
