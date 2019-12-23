@@ -1,4 +1,4 @@
-## Abstract Pixel Art Generator
+# Abstract Pixel Art Generator
 
 ## Description
 ------------------------------------------WARNING: PHOTOSENSITIVITY------------------------------------------
@@ -7,12 +7,16 @@ This app was an exploration into randomization and playing around with simple cs
 
 ## Technologies Used
 - JavaScript
+- jQuery
 - Node.js
 
 ## Usage
 - Select an option
 - Click the corresponding button
 - Enjoy~
+
+## Future Plans
+- Allow users to select their own color palette
 
 Thank you to everyone at Prime Digital Academy for supporting me in my strange endeavors.
 
