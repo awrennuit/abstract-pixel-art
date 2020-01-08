@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
     $(`#sad-btn`).on(`click`, dark);
     $(`#psych-btn`).on(`click`, bright);
 });
